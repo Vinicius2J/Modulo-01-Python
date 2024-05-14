@@ -1,0 +1,2 @@
+msg = input('Digite algo: ')
+print('\n O tipo primitivo desse valor e: {} \n E numero ? {}\n E Alfabetico ? {}\n E alfanumerico ? {}\n Todas as letras são minusculas ? {}\n Todas as letras são maisculas ? {}\n E um valor decimal ? {}\n E um valor printavel ? {} \n So tem espaços ? {} \n Esta capitalizado ? {}'.format( type(msg), msg.isnumeric(), msg.isalpha(), msg.isalnum(), msg.islower(), msg.isupper(), msg.isdecimal(), msg.isprintable(), msg.isspace(), msg.istitle()))
